@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* { font-family: 'Cormorant Garamond', serif;
+ color: black;
+ background-color: #d7c2c2;
+ }
+
+header { text-align: center; font-size:30px; color: #6a4343;
+ }
+h1{ background-color: #b5a5a5;
+ 	color: #6a4343;
+ 	border: 8px solid #6a4343;
+    margin:10px;
+	padding:10px;}
+
+div,section {border-bottom: 2px solid #6a4343;
+ border-right:2px solid #6a4343;}
+
+#lista{width: 75%; float: left;
+ }
+ul{padding-inline-start: 30px;
+}
+.listita {
+ background-color: #d7c2c2;
+ }
+ .listita :hover {
+  background-color: #6a4343;
+  color: white;
+ }
+
+#imagen{width: 25%;float: left;
+ }
+ img{border: 5px solid #6a4343;
+	margin-top: 50px;
+ margin-right: 50px;}
+
+#Datos {width: 75%;
+ padding: 10px; }
+#Estudios {width: 50%;
+  float: left;
+}
+#Experiencia {width: 50%;
+  float:left;
+}
+
+#contacto{width: 50%;
+	float: left;
+ }
+#footer{width: 50%;
+	}
+
+#Hecho{color: white;
+background-color: #a7223b;}
+#ubicacion{color: white;
+background-color: #874854;}
+
+#yo{background-color: #a79f9f; float: left;}
+
+#hora{background-color: #a79f9f;float: left; }
+
+#geo{background-color: #a79f9f;float: middle; }
+
+#pdf{background-color: #a79f9f; float:right; }
+#ref{background-color: #a79f9f;float: left; }
+h2,h3 {
+ color: #a7223b;
+background-color:  #d7c2c2 ;
+}
+h2 :hover {
+  background-color: #a7223b;
+  color: white;
+}
+
+audio{ width: 200px;
+    height: 25px; float:right;}
